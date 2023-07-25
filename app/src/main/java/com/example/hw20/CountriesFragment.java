@@ -57,7 +57,15 @@ public class CountriesFragment extends Fragment {
             countries.add(new Country("Германия", "Берлин", "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/188px-Flag_of_Germany.svg.png"));
             countries.add(new Country("Великобритания", "Лондон", "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/188px-Flag_of_Germany.svg.png"));
             countries.add(new Country("Россия", "Москва", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/240px-Flag_of_Russia.svg.png"));
-        } else if (continentName.equals("Северная Америка")) {
+        } else if (continentName.equals("Азия")) {
+        countries.add(new Country("Кыргызсиан", "Бишкек", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/240px-Flag_of_Kyrgyzstan.svg.png"));
+        countries.add(new Country("Казахстан", "Астана", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/240px-Flag_of_Kazakhstan.svg.png"));
+        countries.add(new Country("Узбекистан", "Ташкетн", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/240px-Flag_of_Uzbekistan.svg.png"));
+        countries.add(new Country("Туркменистан", "Ашхабад", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/240px-Flag_of_Turkmenistan.svg.png"));
+        countries.add(new Country("Таджикистан", "Душанбе", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/240px-Flag_of_Tajikistan.svg.png"));
+        }
+
+        else if (continentName.equals("Северная Америка")) {
             countries.add(new Country("США", "Вашингтон", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/240px-Flag_of_the_United_States.svg.png"));
             countries.add(new Country("Мексика", "Мехико", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/240px-Flag_of_Mexico.svg.png"));
             countries.add(new Country("Канада", "Оттава", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/240px-Flag_of_Canada_%28Pantone%29.svg.png"));
