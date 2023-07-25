@@ -53,9 +53,9 @@ public class CountriesFragment extends Fragment {
             countries.add(new Country("ЮАР", "Хартум", "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/240px-Flag_of_South_Africa.svg.png"));
         } else if (continentName.equals("Европа")) {
             countries.add(new Country("Италия", "Рим", "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/1200px-Flag_of_Italy.svg.png"));
-            countries.add(new Country("Франция", "Париж", "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"));
+            countries.add(new Country("Франция", "Париж", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/240px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png"));
             countries.add(new Country("Германия", "Берлин", "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/188px-Flag_of_Germany.svg.png"));
-            countries.add(new Country("Великобритания", "Лондон", "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/188px-Flag_of_Germany.svg.png"));
+            countries.add(new Country("Великобритания", "Лондон", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/240px-Flag_of_the_United_Kingdom_%283-5%29.svg.png"));
             countries.add(new Country("Россия", "Москва", "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/240px-Flag_of_Russia.svg.png"));
         } else if (continentName.equals("Азия")) {
         countries.add(new Country("Кыргызсиан", "Бишкек", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/240px-Flag_of_Kyrgyzstan.svg.png"));
